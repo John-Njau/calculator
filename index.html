@@ -14,23 +14,31 @@
     <title>Calculator</title>
 </head>
 <body>
-    <div class="h1">
-        <h1 class="mt-4">Calculator</h1>
-        <h2>Simple Js Calculator</h2>
-    </div>
-    <form action="" name="calcForm" class="text-center">
-        <label for="textArea"></label>
-        <!-- <input type="text" > -->
-        <textarea class="m-5" name="calcFace" id="input" cols="20" rows="5"></textarea> <br>
-        <input type="button" id="add" name="addition" value="ADD">
-        <input type="button" id="subtract" name="subtraction" value="subtract"> <br>
-        <input type="button" id="multiply" name="multiplication" value="multiply">
-        <input type="button" id="divide" name="division" value="divide">
-    </form>
-    <div class="calc" id="calc">
-        
-    </div>
-    
+    <section class="">
+        <div class="h1">
+            <h1 class="mt-4">Calculator</h1>
+            <h2>Simple Js Calculator</h2>
+        </div>
+        <form action="" name="calcForm" class="text-center">
+            <label for="firstNo">First Number:</label> <br>
+            <input type="number" id="firstNo"><br>
+            <label for="secondNo">Second Number:</label> <br>
+            <input type="number" id="secondNo"><br>
+            <input class="mt-3" type="button" id="add" name="addition" value="ADD">
+            <input type="button" id="subtract" name="subtraction" value="subtract"> <br>
+            <input class="mt-3" type="button" id="multiply" name="multiplication" value="multiply">
+            <input type="button" id="divide" name="division" value="divide"> <br>
+            <label class="mt-5" for="height">Height(m):</label> <br>
+            <input type="number" id="height" name="height"> <br>
+            <label class="mt-1" for="weight">Weight(kgs):</label> <br>
+            <input type="number" id="height" name="height"> <br>
+            <input class="mt-3" type="button" value="BMI" id="bmi" name="bmi"> <br>
+            <input class="mt-3" type="reset" value="Clear">
+        </form>
+        <div class="calc" id="calc">
+            
+        </div>
+    </section>
 
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
