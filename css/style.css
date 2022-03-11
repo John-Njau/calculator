@@ -12,3 +12,17 @@ h1{
 h2{
     color: rgb(179, 179, 60);
 }
+
+section{
+    margin: auto auto;
+    /* display: flex; */
+    /* background-color: aquamarine; */
+    /* width: 50%; */
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+.calc{
+    text-align: center;
+    margin-top: 10%;
+}
